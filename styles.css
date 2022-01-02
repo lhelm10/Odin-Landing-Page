@@ -1,45 +1,135 @@
-.top {
-    background-color: #1f2937;
-    padding: 30px;
-    padding-left: 50px;
-}
-.header-logo {
-    background-color: #1f2937;
-    display: inline-flex;
-    font-size: 24px;
-    color: #F9FAF8;
+body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.header-link {
-    float: right;
-    word-spacing: 30px;
-    background-color: #1f2937;
-    margin-right: 25px;
-    padding: 5px;
-    color: #e5e7eb;
-    font-size: 18px;
-}
-.second-section {
-    margin-top: 100px;
-    color: #F9FAF8;
-    font-weight: bolder;
-    font-size: 48px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.second-section-h3 {
-    color: #F9FAF8;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.second-section-button {
-    color: #F9FAF8;
-    background-color: #3882f6;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.second-section-img {
-    float: right;
-    background-color: #1f2937;
 }
 a {
-    color: #F9FAF8;
+    text-decoration: none;
+    color: #f9faf8;
+}
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header-logo {
+    margin-left: 30px;
+    color: #f9faf8;
+    font-size: 24px;
+    align-items: center;
+}
+.header-links {
+    word-spacing: 30px;
+    margin-right: 50px;
+}
+.header-links a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    list-style: none;
+}
+.main-section-txt {
+    display: inline-block;
+    padding: 20px;
+    margin-left: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main-section-txt h1{
+    float: left;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.main-section-txt h2{
+    float: left;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.main-section-txt button {
+    font-weight: bolder;
+    color: #e5e7eb;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #3882f6;
+}
+.main-section-img img{
+    margin-right: 60px;
+    margin-top: -25px;
+    width: 50%;
+    float: right;
+}
+.main-section {
+    background-color: #1f2937;
+    display: flex;
+}
+.second-section {
+    padding: 1px;
+    background-color: white;
+}
+.second-section h1 {
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+}
+.second-section p {
+    color: #1f2937;
+}
+.second-section-img {
+    justify-content: space-between;
+    display: flex;
+    background-color: white;
+}
+.second-section-img-img{
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 5px;
+}
+.second-section-img-img img {
+    border-radius: 5px;
+    height: 140px;
+}
+.third-section {
+    padding: 80px;
+    background-color: #e5e7eb;
+}
+.third-section h1 {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.third-section h2 {
+    margin-right: 250px;
+    text-align: right;
+    color: #1f2937;
+    font-size: 18px;
+}
+.fourth-section {
+    display: flex;
+    background-color: #3882f6;
+    padding: 10px;
+    color: #f9faf8;
+    border-radius: 10px;
+    margin: 100px 150px;
+}
+.fourth-section h1 {
+    margin-left: 90px;
+}
+.fourth-section p {
+    margin-left: 90px;
+}
+.fourth-section button {
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-self: center;
+    height: fit-content;
+    margin-left: 400px;
+    font-weight: bolder;
+    border: solid white;
+    border-radius: 10px;
+    background-color: #3882f6;
 }
