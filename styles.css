@@ -37,7 +37,7 @@ header {
 }
 .main-section-txt h1{
     float: left;
-    font-size: 48px;
+    font-size: 58px;
     font-weight: bolder;
     color: #f9faf8;
 }
@@ -56,13 +56,15 @@ header {
 }
 .main-section-img img{
     margin-right: 60px;
-    margin-top: -25px;
-    width: 50%;
+    margin-top: -60px;
+    width: 80%;
     float: right;
 }
 .main-section {
     background-color: #1f2937;
     display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .second-section {
     padding: 1px;
